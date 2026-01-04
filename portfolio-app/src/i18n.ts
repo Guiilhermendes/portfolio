@@ -42,6 +42,13 @@ const resources = {
         title: 'Professional Experience',
         experiences: [
           {
+            company: 'BRQ',
+            role: 'Senior Technical Consultant',
+            period: 'Nov 2025',
+            description: 'Technical Consultant in the financial services domain, working on the maintenance, optimization, and evolution of mission-critical systems. I leverage AWS services (Lambda, Glue, Athena, S3, Secrets Manager) and FICO DMPS to maintain decisioning platforms, implement new features, and improve performance, scalability, and reliability of client products. Experienced in troubleshooting production systems and collaborating with cross-functional teams to deliver high-impact technical solutions.',
+            technologies: ['JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+          },
+          {
             company: 'Mobicity',
             role: 'Full Stack Developer',
             period: 'Jan 2022 - Nov 2025',
@@ -127,6 +134,13 @@ const resources = {
       experience: {
         title: 'Experiência Profissional',
         experiences: [
+          {
+            company: 'BRQ',
+            role: 'Consultor Técnico Senior',
+            period: 'Nov 2025',
+            description: 'Consultor Técnico Senior atuando no setor de serviços financeiros, responsável pela manutenção, otimização e evolução de sistemas críticos para o negócio. Utilizo serviços da AWS (Lambda, Glue, Athena, S3, Secrets Manager) e FICO DMPS para manter plataformas de decisão, implementar novas funcionalidades e melhorar o desempenho, a escalabilidade e a confiabilidade dos produtos dos clientes. Possuo experiência na resolução de problemas em ambientes de produção e na colaboração com equipes multidisciplinares para entregar soluções técnicas de alto impacto.',
+            technologies: ['JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+          },
           {
             company: 'Mobicity',
             role: 'Desenvolvedor Full Stack',
