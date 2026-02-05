@@ -31,4 +31,8 @@ declare module 'react-icons/si' {
   export const SiGraphql: IconType;
   export const SiTailwindcss: IconType;
   export const SiStyledcomponents: IconType;
+  export const SiNestjs: IconType;
+  export const SiZod: IconType;
+  export const SiFastify: IconType;
+  export const SiApachespark: IconType;
 }

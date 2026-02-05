@@ -7,7 +7,8 @@ import {
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, 
-  SiRedis, SiGraphql, SiTailwindcss, SiStyledcomponents 
+  SiRedis, SiGraphql, SiTailwindcss, SiStyledcomponents,
+  SiNestjs, SiZod, SiFastify, SiApachespark
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -19,26 +20,33 @@ const Skills: React.FC = () => {
       title: t('skills.frontend'),
       skills: [
         { name: 'React', icon: <FaReact />, color: '#61DAFB' },
+        { name: 'React Native', icon: <FaReact />, color: '#61DAFB' },
         { name: 'Next.js', icon: <SiNextdotjs />, color: '#000000' },
         { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
         { name: 'JavaScript', icon: <FaJs />, color: '#F7DF1E' },
         { name: 'HTML5', icon: <FaHtml5 />, color: '#E34F26' },
         { name: 'CSS3', icon: <FaCss3Alt />, color: '#1572B6' },
         { name: 'Tailwind', icon: <SiTailwindcss />, color: '#06B6D4' },
-        { name: 'Styled Components', icon: <SiStyledcomponents />, color: '#DB7093' }
+        { name: 'Styled Components', icon: <SiStyledcomponents />, color: '#DB7093' },
+        { name: 'Zod', icon: <SiZod />, color: '#3E67B1' }
       ]
     },
     {
       title: t('skills.backend'),
       skills: [
         { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
+        { name: 'Nest.js', icon: <SiNestjs />, color: '#E0234E' },
         { name: 'Express', icon: <FaNodeJs />, color: '#000000' },
+        { name: 'Fastify', icon: <SiFastify />, color: '#000000' },
         { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
         { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#4169E1' },
+        { name: 'NoSQL', icon: <FaDatabase />, color: '#4DB33D' },
         { name: 'GraphQL', icon: <SiGraphql />, color: '#E10098' },
         { name: 'Redis', icon: <SiRedis />, color: '#DC382D' },
         { name: 'Python', icon: <FaPython />, color: '#3776AB' },
-        { name: 'SQL', icon: <FaDatabase />, color: '#4479A1' }
+        { name: 'PySpark', icon: <SiApachespark />, color: '#E25A1C' },
+        { name: 'SQL', icon: <FaDatabase />, color: '#4479A1' },
+        { name: 'API REST', icon: <FaNodeJs />, color: '#009688' }
       ]
     },
     {
@@ -46,8 +54,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
         { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
-        { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
-        { name: 'REST APIs', icon: <FaNodeJs />, color: '#009688' }
+        { name: 'AWS', icon: <FaAws />, color: '#FF9900' }
       ]
     }
   ];
