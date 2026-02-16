@@ -8,7 +8,9 @@ import {
 import { 
   SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, 
   SiRedis, SiGraphql, SiTailwindcss, SiStyledcomponents,
-  SiNestjs, SiZod, SiFastify, SiApachespark
+  SiNestjs, SiZod, SiFastify, SiApachespark, SiVite,
+  SiVitest, SiPrisma, SiReactrouter, SiCssmodules,
+  SiReacthookform, SiExpo, SiAxios, SiJest, SiMocha
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -26,9 +28,13 @@ const Skills: React.FC = () => {
         { name: 'JavaScript', icon: <FaJs />, color: '#F7DF1E' },
         { name: 'HTML5', icon: <FaHtml5 />, color: '#E34F26' },
         { name: 'CSS3', icon: <FaCss3Alt />, color: '#1572B6' },
+        { name: 'CSS Modules', icon: <SiCssmodules />, color: '#000000' },
         { name: 'Tailwind', icon: <SiTailwindcss />, color: '#06B6D4' },
         { name: 'Styled Components', icon: <SiStyledcomponents />, color: '#DB7093' },
-        { name: 'Zod', icon: <SiZod />, color: '#3E67B1' }
+        { name: 'React Router', icon: <SiReactrouter />, color: '#CA4245' },
+        { name: 'React Hook Form', icon: <SiReacthookform />, color: '#EC5990' },
+        { name: 'Zod', icon: <SiZod />, color: '#3E67B1' },
+        { name: 'Expo', icon: <SiExpo />, color: '#000020' }
       ]
     },
     {
@@ -38,11 +44,13 @@ const Skills: React.FC = () => {
         { name: 'Nest.js', icon: <SiNestjs />, color: '#E0234E' },
         { name: 'Express', icon: <FaNodeJs />, color: '#000000' },
         { name: 'Fastify', icon: <SiFastify />, color: '#000000' },
+        { name: 'Prisma', icon: <SiPrisma />, color: '#2D3748' },
         { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
         { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#4169E1' },
         { name: 'NoSQL', icon: <FaDatabase />, color: '#4DB33D' },
         { name: 'GraphQL', icon: <SiGraphql />, color: '#E10098' },
         { name: 'Redis', icon: <SiRedis />, color: '#DC382D' },
+        { name: 'Axios', icon: <SiAxios />, color: '#5A29E4' },
         { name: 'Python', icon: <FaPython />, color: '#3776AB' },
         { name: 'PySpark', icon: <SiApachespark />, color: '#E25A1C' },
         { name: 'SQL', icon: <FaDatabase />, color: '#4479A1' },
@@ -54,7 +62,11 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
         { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
-        { name: 'AWS', icon: <FaAws />, color: '#FF9900' }
+        { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
+        { name: 'Vite', icon: <SiVite />, color: '#646CFF' },
+        { name: 'Vitest', icon: <SiVitest />, color: '#6E9F18' },
+        { name: 'Jest', icon: <SiJest />, color: '#C21325' },
+        { name: 'Mocha/Chai', icon: <SiMocha />, color: '#8D6748' }
       ]
     }
   ];

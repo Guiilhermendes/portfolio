@@ -35,4 +35,14 @@ declare module 'react-icons/si' {
   export const SiZod: IconType;
   export const SiFastify: IconType;
   export const SiApachespark: IconType;
+  export const SiVite: IconType;
+  export const SiVitest: IconType;
+  export const SiPrisma: IconType;
+  export const SiReactrouter: IconType;
+  export const SiCssmodules: IconType;
+  export const SiReacthookform: IconType;
+  export const SiExpo: IconType;
+  export const SiAxios: IconType;
+  export const SiJest: IconType;
+  export const SiMocha: IconType;
 }
