@@ -19,6 +19,8 @@ declare module 'react-icons/fa' {
   export const FaDatabase: IconType;
   export const FaBriefcase: IconType;
   export const FaCalendarAlt: IconType;
+  export const FaUserGraduate: IconType;
+  export const FaUniversity: IconType;
 }
 
 declare module 'react-icons/si' {

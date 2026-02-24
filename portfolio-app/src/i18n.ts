@@ -10,6 +10,7 @@ const resources = {
         skills: 'Skills',
         projects: 'Projects',
         experience: 'Experience',
+        education: 'Education',
         contact: 'Contact'
       },
       hero: {
@@ -78,6 +79,9 @@ const resources = {
           }
         ]
       },
+      education: {
+        title: 'Education & Certifications'
+      },
       contact: {
         title: 'Get In Touch',
         subtitle: "Let's work together on your next project",
@@ -103,6 +107,7 @@ const resources = {
         skills: 'Habilidades',
         projects: 'Projetos',
         experience: 'Experiência',
+        education: 'Educação',
         contact: 'Contato'
       },
       hero: {
@@ -170,6 +175,9 @@ const resources = {
             technologies: ['ASP.Net Core', 'JQuery', 'Bootstrap', 'JavaScript', 'Model-View-Controller (MVC)']
           }
         ]
+      },
+      education: {
+        title: 'Educação & Certificações'
       },
       contact: {
         title: 'Entre em Contato',
