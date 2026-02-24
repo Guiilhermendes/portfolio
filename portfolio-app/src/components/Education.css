@@ -41,6 +41,13 @@
   position: relative;
 }
 
+.degree-image-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
 .degree-image {
   width: 100%;
   height: 100%;
