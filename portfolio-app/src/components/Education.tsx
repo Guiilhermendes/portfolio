@@ -18,51 +18,51 @@ const Education: React.FC = () => {
 
   const degrees: Degree[] = [
     {
-      title: 'Bacharelado em Ciências da Computação',
+      title: t('education.degrees.computerScience.title'),
       institution: 'Universidade São Judas Tadeu',
       period: '2018 - 2021',
-      description: 'Formação completa em Ciências da Computação, com foco em desenvolvimento de software, algoritmos, estruturas de dados, engenharia de software, banco de dados e fundamentos de computação.',
+      description: t('education.degrees.computerScience.description'),
       image: 'https://diploma.usjt.br/?/203.203.e7e64459a075',
       diplomaUrl: 'https://diploma.usjt.br/?/203.203.e7e64459a075'
     },
     {
-      title: 'Fundamentos do Node.js',
+      title: t('education.degrees.nodeFoundations.title'),
       institution: 'Rocketseat',
       period: '2024',
-      description: 'Certificação em fundamentos do Node.js, cobrindo APIs REST, streams, middlewares e desenvolvimento backend com JavaScript.',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
+      description: t('education.degrees.nodeFoundations.description'),
+      image: 'https://cdn.simpleicons.org/nodedotjs/339933',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/9171e286-efe6-496e-a1ce-c2a814ca97bf'
     },
     {
-      title: 'Fundamentos do React',
+      title: t('education.degrees.reactFoundations.title'),
       institution: 'Rocketseat',
       period: '2026',
-      description: 'Certificação em fundamentos do React, abordando componentes, hooks, estado, props e desenvolvimento de interfaces modernas e reativas.',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+      description: t('education.degrees.reactFoundations.description'),
+      image: 'https://cdn.simpleicons.org/react/61DAFB',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/22d18e89-1371-4994-933e-924af713a56c'
     },
     {
-      title: 'Fundamentos do React Native',
+      title: t('education.degrees.reactNativeFoundations.title'),
       institution: 'Rocketseat',
       period: '2025',
-      description: 'Certificação em fundamentos de React Native, com foco em desenvolvimento mobile multiplataforma, componentes nativos e estilização.',
-      image: 'https://cdn.worldvectorlogo.com/logos/react-native-1.svg',
+      description: t('education.degrees.reactNativeFoundations.description'),
+      image: 'https://cdn.simpleicons.org/react/61DAFB',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/bf158e58-c510-4b3f-acee-87a6195ddfb4'
     },
     {
-      title: 'Microsserviços Escaláveis',
+      title: t('education.degrees.microservices.title'),
       institution: 'Rocketseat',
       period: '2025',
-      description: 'Certificação em arquitetura de microsserviços, abordando design patterns, comunicação entre serviços, escalabilidade e boas práticas.',
-      image: 'https://cdn-icons-png.flaticon.com/512/9672/9672887.png',
+      description: t('education.degrees.microservices.description'),
+      image: 'https://cdn.simpleicons.org/kubernetes/326CE5',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/155b2787-88bb-4b48-b60d-de5c48633550'
     },
     {
-      title: 'Interfaces, Navegação e Armazenamento local',
+      title: t('education.degrees.reactNativeAdvanced.title'),
       institution: 'Rocketseat',
       period: '2025',
-      description: 'Certificação focada em React Native, explorando criação de interfaces mobile, navegação entre telas e persistência de dados local.',
-      image: 'https://cdn.worldvectorlogo.com/logos/react-native-1.svg',
+      description: t('education.degrees.reactNativeAdvanced.description'),
+      image: 'https://cdn.simpleicons.org/react/61DAFB',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/31ee96af-7e05-4853-ab76-f37261ab9364'
     },
   ];

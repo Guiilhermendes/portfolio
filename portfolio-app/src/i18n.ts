@@ -80,7 +80,33 @@ const resources = {
         ]
       },
       education: {
-        title: 'Education & Certifications'
+        title: 'Education & Certifications',
+        degrees: {
+          computerScience: {
+            title: 'Bachelor of Computer Science',
+            description: 'Complete education in Computer Science, with focus on software development, algorithms, data structures, software engineering, databases and fundamentals of computing.'
+          },
+          nodeFoundations: {
+            title: 'Node.js Foundations',
+            description: 'Certification in Node.js fundamentals, covering REST APIs, streams, middlewares and backend development with JavaScript.'
+          },
+          reactFoundations: {
+            title: 'React Foundations',
+            description: 'Certification in React fundamentals, covering components, hooks, state, props and development of modern and reactive interfaces.'
+          },
+          reactNativeFoundations: {
+            title: 'React Native Foundations',
+            description: 'Certification in React Native fundamentals, focused on cross-platform mobile development, native components and styling.'
+          },
+          microservices: {
+            title: 'Scalable Microservices',
+            description: 'Certification in microservices architecture, covering design patterns, service communication, scalability and best practices.'
+          },
+          reactNativeAdvanced: {
+            title: 'Interfaces, Navigation and Local Storage',
+            description: 'Certification focused on React Native, exploring mobile interface creation, screen navigation and local data persistence.'
+          }
+        }
       },
       contact: {
         title: 'Get In Touch',
@@ -177,7 +203,33 @@ const resources = {
         ]
       },
       education: {
-        title: 'Educação & Certificações'
+        title: 'Educação & Certificações',
+        degrees: {
+          computerScience: {
+            title: 'Bacharelado em Ciências da Computação',
+            description: 'Formação completa em Ciências da Computação, com foco em desenvolvimento de software, algoritmos, estruturas de dados, engenharia de software, banco de dados e fundamentos de computação.'
+          },
+          nodeFoundations: {
+            title: 'Fundamentos do Node.js',
+            description: 'Certificação em fundamentos do Node.js, cobrindo APIs REST, streams, middlewares e desenvolvimento backend com JavaScript.'
+          },
+          reactFoundations: {
+            title: 'Fundamentos do React',
+            description: 'Certificação em fundamentos do React, abordando componentes, hooks, estado, props e desenvolvimento de interfaces modernas e reativas.'
+          },
+          reactNativeFoundations: {
+            title: 'Fundamentos do React Native',
+            description: 'Certificação em fundamentos de React Native, com foco em desenvolvimento mobile multiplataforma, componentes nativos e estilização.'
+          },
+          microservices: {
+            title: 'Microsserviços Escaláveis',
+            description: 'Certificação em arquitetura de microsserviços, abordando design patterns, comunicação entre serviços, escalabilidade e boas práticas.'
+          },
+          reactNativeAdvanced: {
+            title: 'Interfaces, Navegação e Armazenamento local',
+            description: 'Certificação focada em React Native, explorando criação de interfaces mobile, navegação entre telas e persistência de dados local.'
+          }
+        }
       },
       contact: {
         title: 'Entre em Contato',
