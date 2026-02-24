@@ -22,7 +22,7 @@ const Education: React.FC = () => {
       institution: 'Universidade São Judas Tadeu',
       period: '2018 - 2021',
       description: t('education.degrees.computerScience.description'),
-      image: 'https://cdn.simpleicons.org/graduation/667eea',
+      image: 'https://cdn.simpleicons.org/gnubash/4EAA25',
       diplomaUrl: 'https://diploma.usjt.br/?/203.203.e7e64459a075'
     },
     {
@@ -91,38 +91,22 @@ const Education: React.FC = () => {
               viewport={{ once: true }}
             >
               {degree.image && (
-                <div className="degree-image-container">
-                  {degree.diplomaUrl ? (
-                    <a href={degree.diplomaUrl} target="_blank" rel="noopener noreferrer">
-                      <img 
-                        src={degree.image} 
-                        alt={`Diploma - ${degree.title}`}
-                        className="degree-image"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.style.display = 'none';
-                          const placeholder = target.parentElement?.nextElementSibling as HTMLElement;
-                          if (placeholder) placeholder.style.display = 'flex';
-                        }}
-                      />
-                    </a>
-                  ) : (
-                    <img 
-                      src={degree.image} 
-                      alt={`Diploma - ${degree.title}`}
-                      className="degree-image"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        const placeholder = target.nextElementSibling as HTMLElement;
-                        if (placeholder) placeholder.style.display = 'flex';
-                      }}
-                    />
-                  )}
-                  <div className="degree-image-placeholder" style={{ display: 'none' }}>
-                    <FaUserGraduate size={80} />
-                  </div>
-                </div>
+                <a 
+                  href={degree.diplomaUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="degree-image-container"
+                >
+                  <img 
+                    src={degree.image} 
+                    alt={`Diploma - ${degree.title}`}
+                    className="degree-image"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                    }}
+                  />
+                </a>
               )}
               
               <div className="degree-content">
