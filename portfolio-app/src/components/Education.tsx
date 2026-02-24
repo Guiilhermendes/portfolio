@@ -22,7 +22,7 @@ const Education: React.FC = () => {
       institution: 'Universidade São Judas Tadeu',
       period: '2018 - 2021',
       description: t('education.degrees.computerScience.description'),
-      image: 'https://diploma.usjt.br/?/203.203.e7e64459a075',
+      image: 'https://cdn.simpleicons.org/graduation/667eea',
       diplomaUrl: 'https://diploma.usjt.br/?/203.203.e7e64459a075'
     },
     {
