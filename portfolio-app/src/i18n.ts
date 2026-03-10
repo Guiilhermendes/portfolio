@@ -11,6 +11,7 @@ const resources = {
         projects: 'Projects',
         experience: 'Experience',
         education: 'Education',
+        resume: 'Resume',
         contact: 'Contact'
       },
       hero: {
@@ -108,6 +109,13 @@ const resources = {
           }
         }
       },
+      resume: {
+        title: 'Download Resume',
+        subtitle: 'Get my full professional resume in your preferred language',
+        download: 'Download PDF',
+        portuguese: 'Portuguese Version',
+        english: 'English Version'
+      },
       contact: {
         title: 'Get In Touch',
         subtitle: "Let's work together on your next project",
@@ -134,6 +142,7 @@ const resources = {
         projects: 'Projetos',
         experience: 'Experiência',
         education: 'Educação',
+        resume: 'Currículo',
         contact: 'Contato'
       },
       hero: {
@@ -230,6 +239,13 @@ const resources = {
             description: 'Certificação focada em React Native, explorando criação de interfaces mobile, navegação entre telas e persistência de dados local.'
           }
         }
+      },
+      resume: {
+        title: 'Baixar Currículo',
+        subtitle: 'Obtenha meu currículo profissional completo no idioma de sua preferência',
+        download: 'Baixar PDF',
+        portuguese: 'Versão em Português',
+        english: 'Versão em Inglês'
       },
       contact: {
         title: 'Entre em Contato',
