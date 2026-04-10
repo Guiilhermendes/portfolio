@@ -17,13 +17,13 @@ const resources = {
       hero: {
         greeting: "Hi, I'm",
         title: 'Full Stack Developer',
-        subtitle: 'Transforming ideas into digital solutions with 6+ years of experience',
+        subtitle: 'Transforming ideas into digital solutions with 7 years of experience',
         cta: 'View Projects',
         contact: 'Get in Touch'
       },
       about: {
         title: 'About Me',
-        description: "I'm a full stack developer based in São Paulo, Brazil, with 6 years of experience in creating innovative solutions. My greatest passion is technology and the possibilities it opens to the world around us, especially the way I can use it to transform people's lives.",
+        description: "I'm a full stack developer based in São Paulo, Brazil, with 7 years of experience in creating innovative solutions. My greatest passion is technology and the possibilities it opens to the world around us, especially the way I can use it to transform people's lives.",
         yearsExperience: 'Years Experience',
         projectsCompleted: 'Projects Completed',
         technologiesMastered: 'Technologies Mastered'
@@ -148,13 +148,13 @@ const resources = {
       hero: {
         greeting: 'Olá, eu sou',
         title: 'Desenvolvedor Full Stack',
-        subtitle: 'Transformando ideias em soluções digitais com mais de 6 anos de experiência',
+        subtitle: 'Transformando ideias em soluções digitais com 7 anos de experiência',
         cta: 'Ver Projetos',
         contact: 'Entre em Contato'
       },
       about: {
         title: 'Sobre Mim',
-        description: 'Sou um desenvolvedor full stack baseado em São Paulo, Brasil, com 6 anos de experiência na criação de soluções inovadoras. Minha maior paixão é a tecnologia e as possibilidades que ela abre para o mundo ao nosso redor, especialmente a forma como posso usá-la para transformar a vida das pessoas.',
+        description: 'Sou um desenvolvedor full stack baseado em São Paulo, Brasil, com 7 anos de experiência na criação de soluções inovadoras. Minha maior paixão é a tecnologia e as possibilidades que ela abre para o mundo ao nosso redor, especialmente a forma como posso usá-la para transformar a vida das pessoas.',
         yearsExperience: 'Anos de Experiência',
         projectsCompleted: 'Projetos Concluídos',
         technologiesMastered: 'Tecnologias Dominadas'
