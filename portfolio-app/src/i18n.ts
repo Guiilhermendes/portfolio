@@ -87,6 +87,10 @@ const resources = {
             title: 'Bachelor of Computer Science',
             description: 'Complete education in Computer Science, with focus on software development, algorithms, data structures, software engineering, databases and fundamentals of computing.'
           },
+          react: {
+            title: 'React',
+            description: 'Advanced React certification covering component architecture, advanced hooks, performance optimization, and state management patterns for scalable applications.'
+          },
           nodeFoundations: {
             title: 'Node.js Foundations',
             description: 'Certification in Node.js fundamentals, covering REST APIs, streams, middlewares and backend development with JavaScript.'
@@ -217,6 +221,10 @@ const resources = {
           computerScience: {
             title: 'Bacharelado em Ciências da Computação',
             description: 'Formação completa em Ciências da Computação, com foco em desenvolvimento de software, algoritmos, estruturas de dados, engenharia de software, banco de dados e fundamentos de computação.'
+          },
+          react: {
+            title: 'React',
+            description: 'Certificação avançada em React abordando arquitetura de componentes, hooks avançados, otimização de performance e padrões de gerenciamento de estado para aplicações escaláveis.'
           },
           nodeFoundations: {
             title: 'Fundamentos do Node.js',
