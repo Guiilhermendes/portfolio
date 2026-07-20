@@ -15,6 +15,12 @@ import {
 } from 'react-icons/si';
 import './Skills.css';
 
+const SpringBootIcon = () => (
+  <svg role="img" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+    <path d="m23.693 10.7058-4.73-8.1844c-.4094-.7106-1.4166-1.2942-2.2402-1.2942h-9.4496c-.8202 0-1.831.5836-2.2402 1.2942L.3068 10.7058c-.4094.7106-.4094 1.8732 0 2.5838l4.7256 8.1892c.4092.7106 1.4166 1.2942 2.2402 1.2942h9.4552c.8202 0 1.826-.5836 2.2402-1.2942l4.7256-8.1892c.4094-.7106.4094-1.873 0-2.5838zM10.976 5.7554a.975.975 0 0 1 1.949 0v5.8212a.9752.9752 0 0 1-1.949 0zm.9746 12.4296a6.6162 6.6162 0 0 1-6.6072-6.6092A6.6398 6.6398 0 0 1 8.0102 6.2716a.8658.8658 0 0 1 1.2136.1798.866.866 0 0 1-.178 1.2136 4.8764 4.8764 0 0 0-1.9812 3.926 4.878 4.878 0 0 0 4.8764 4.8764 4.878 4.878 0 0 0 4.8766-4.8764 4.9 4.9 0 0 0-1.9864-3.925.87.87 0 0 1-.1832-1.2136.87.87 0 0 1 1.2138-.1832 6.63 6.63 0 0 1 2.6866 5.3218 6.6162 6.6162 0 0 1-6.6072 6.6092z"/>
+  </svg>
+);
+
 const Skills: React.FC = () => {
   const { t } = useTranslation();
 
@@ -44,7 +50,7 @@ const Skills: React.FC = () => {
         { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
         { name: 'Nest.js', icon: <SiNestjs />, color: '#E0234E' },
         { name: 'Java', icon: <FaJava />, color: '#007396' },
-        { name: 'Spring Boot', icon: <span style={{ fontSize: '24px', fontWeight: 'bold' }}>🍃</span>, color: '#6DB33F' },
+        { name: 'Spring Boot', icon: <SpringBootIcon />, color: '#6DB33F' },
         { name: 'Express', icon: <FaNodeJs />, color: '#000000' },
         { name: 'Fastify', icon: <SiFastify />, color: '#000000' },
         { name: 'Prisma', icon: <SiPrisma />, color: '#2D3748' },
