@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, 
-  FaDocker, FaAws, FaPython, FaDatabase 
+  FaDocker, FaAws, FaPython, FaDatabase
 } from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa6';
 import { 
   SiTypescript, SiNextdotjs, SiMongodb, SiPostgresql, 
   SiRedis, SiGraphql, SiTailwindcss, SiStyledcomponents,
@@ -42,6 +43,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
         { name: 'Nest.js', icon: <SiNestjs />, color: '#E0234E' },
+        { name: 'Java', icon: <FaJava />, color: '#007396' },
+        { name: 'Spring Boot', icon: <span style={{ fontSize: '24px', fontWeight: 'bold' }}>🍃</span>, color: '#6DB33F' },
         { name: 'Express', icon: <FaNodeJs />, color: '#000000' },
         { name: 'Fastify', icon: <SiFastify />, color: '#000000' },
         { name: 'Prisma', icon: <SiPrisma />, color: '#2D3748' },

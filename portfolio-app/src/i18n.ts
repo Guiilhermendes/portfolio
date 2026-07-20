@@ -62,7 +62,7 @@ const resources = {
             role: 'Technology Consultant',
             period: 'Apr 2021 - Apr 2022',
             description: 'Data and backend-focused developer with experience in banking projects, working with decision engines, data pipelines, and cloud platforms. Strong background in ETL optimization, policy parameterization, and aligning technical solutions with business requirements while supporting team enablement through documentation and training.',
-            technologies: ['React', 'Node.js', 'JavaScript', 'MySQL', 'AWS']
+            technologies: ['React', 'Node.js', 'JavaScript', 'Java', 'MySQL', 'AWS']
           },
           {
             company: 'Self Employed',
@@ -76,7 +76,7 @@ const resources = {
             role: 'Technical Support Intern',
             period: 'Apr 2019 - Sep 2020',
             description: 'Backend developer with experience building and maintaining ASP.NET Core systems, integrating server-side solutions with front-end technologies such as HTML, JavaScript, jQuery, and Bootstrap.',
-            technologies: ['ASP.Net Core', 'JQuery', 'Bootstrap', 'JavaScript', 'Model-View-Controller (MVC)']
+            technologies: ['ASP.Net Core', 'Java', 'JQuery', 'Bootstrap', 'JavaScript', 'Model-View-Controller (MVC)']
           }
         ]
       },
@@ -197,7 +197,7 @@ const resources = {
             role: 'Consultor de Tecnologia',
             period: 'Abr 2021 - Abr 2022',
             description: 'Desenvolvedor com foco em dados e backend, com experiência em projetos bancários, atuando em motores de decisão, pipelines de dados e plataformas em nuvem. Especialista em otimização de ETL, parametrização de regras e alinhamento entre requisitos de negócio e entrega técnica, além de apoio ao time por meio de documentação e treinamentos.',
-            technologies: ['Python', 'PySpark', 'JavaScript', 'Azure', 'FICO']
+            technologies: ['Python', 'PySpark', 'JavaScript', 'Java', 'Azure', 'FICO']
           },
           {
             company: 'Autônomo',
@@ -211,7 +211,7 @@ const resources = {
             role: 'Suporte Técnico',
             period: 'Abr 2019 - Set 2020',
             description: 'Desenvolvedor backend com experiência no desenvolvimento e manutenção de sistemas em ASP.NET Core, integrando soluções de servidor com tecnologias de front-end como HTML, JavaScript, jQuery e Bootstrap.',
-            technologies: ['ASP.Net Core', 'JQuery', 'Bootstrap', 'JavaScript', 'Model-View-Controller (MVC)']
+            technologies: ['ASP.Net Core', 'Java', 'JQuery', 'Bootstrap', 'JavaScript', 'Model-View-Controller (MVC)']
           }
         ]
       },
