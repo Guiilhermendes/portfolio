@@ -7,7 +7,7 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   const stats = [
-    { number: '6+', label: t('about.yearsExperience') },
+    { number: '7+', label: t('about.yearsExperience') },
     { number: '50+', label: t('about.projectsCompleted') },
     { number: '20+', label: t('about.technologiesMastered') }
   ];
