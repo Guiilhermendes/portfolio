@@ -30,7 +30,7 @@ const Education: React.FC = () => {
       institution: 'Rocketseat',
       period: '2026',
       description: t('education.degrees.ai.description'),
-      image: 'https://cdn.simpleicons.org/openai/412991',
+      image: '/diplomas/ai-certificate.svg',
       diplomaUrl: 'https://www.rocketseat.com.br/referral/one?referral=guilherme-mendes-08293&utm_source=platform&utm_medium=organic&utm_campaign=venda&utm_term=mgm&utm_content=indication-lp_one-certificate-modal&coupon=indicamgm'
     },
     {
