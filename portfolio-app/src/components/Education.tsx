@@ -26,6 +26,14 @@ const Education: React.FC = () => {
       diplomaUrl: 'https://diploma.usjt.br/?/203.203.e7e64459a075'
     },
     {
+      title: t('education.degrees.ai.title'),
+      institution: 'Rocketseat',
+      period: '2026',
+      description: t('education.degrees.ai.description'),
+      image: 'https://cdn.simpleicons.org/openai/412991',
+      diplomaUrl: 'https://www.rocketseat.com.br/referral/one?referral=guilherme-mendes-08293&utm_source=platform&utm_medium=organic&utm_campaign=venda&utm_term=mgm&utm_content=indication-lp_one-certificate-modal&coupon=indicamgm'
+    },
+    {
       title: t('education.degrees.react.title'),
       institution: 'Rocketseat',
       period: '2026',

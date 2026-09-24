@@ -48,7 +48,7 @@ const resources = {
             role: 'Senior Technical Consultant',
             period: 'Nov 2025',
             description: 'Technical Consultant in the financial services domain, working on the maintenance, optimization, and evolution of mission-critical systems. I leverage AWS services (Lambda, Glue, Athena, S3, Secrets Manager) and FICO DMPS to maintain decisioning platforms, implement new features, and improve performance, scalability, and reliability of client products. Experienced in troubleshooting production systems and collaborating with cross-functional teams to deliver high-impact technical solutions.',
-            technologies: ['JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+            technologies: ['AI', 'JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
           },
           {
             company: 'Mobicity',
@@ -86,6 +86,10 @@ const resources = {
           computerScience: {
             title: 'Bachelor of Computer Science',
             description: 'Complete education in Computer Science, with focus on software development, algorithms, data structures, software engineering, databases and fundamentals of computing.'
+          },
+          ai: {
+            title: 'Artificial Intelligence',
+            description: 'Certification focused on Artificial Intelligence, covering practical AI fundamentals, modern tools and real-world applications for product and software development.'
           },
           react: {
             title: 'React',
@@ -183,7 +187,7 @@ const resources = {
             role: 'Consultor Técnico Senior',
             period: 'Nov 2025',
             description: 'Consultor Técnico Senior atuando no setor de serviços financeiros, responsável pela manutenção, otimização e evolução de sistemas críticos para o negócio. Utilizo serviços da AWS (Lambda, Glue, Athena, S3, Secrets Manager) e FICO DMPS para manter plataformas de decisão, implementar novas funcionalidades e melhorar o desempenho, a escalabilidade e a confiabilidade dos produtos dos clientes. Possuo experiência na resolução de problemas em ambientes de produção e na colaboração com equipes multidisciplinares para entregar soluções técnicas de alto impacto.',
-            technologies: ['JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+            technologies: ['IA', 'JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
           },
           {
             company: 'Mobicity',
@@ -221,6 +225,10 @@ const resources = {
           computerScience: {
             title: 'Bacharelado em Ciências da Computação',
             description: 'Formação completa em Ciências da Computação, com foco em desenvolvimento de software, algoritmos, estruturas de dados, engenharia de software, banco de dados e fundamentos de computação.'
+          },
+          ai: {
+            title: 'Inteligência Artificial',
+            description: 'Certificação focada em Inteligência Artificial, cobrindo fundamentos práticos de IA, ferramentas modernas e aplicações reais para desenvolvimento de produtos e software.'
           },
           react: {
             title: 'React',
