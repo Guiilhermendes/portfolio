@@ -30,7 +30,7 @@ const Education: React.FC = () => {
       institution: 'Rocketseat',
       period: '2026',
       description: t('education.degrees.ai.description'),
-      image: 'https://cdn.simpleicons.org/openai/412991',
+      image: 'https://cdn.simpleicons.org/openaigym/412991',
       diplomaUrl: 'https://app.rocketseat.com.br/certificates/c0aedfd5-ebcf-4176-a225-8d38e5746e33'
     },
     {
