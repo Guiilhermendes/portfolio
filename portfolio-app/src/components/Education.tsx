@@ -31,7 +31,7 @@ const Education: React.FC = () => {
       period: '2026',
       description: t('education.degrees.ai.description'),
       image: '/diplomas/ai-certificate.svg',
-      diplomaUrl: 'https://www.rocketseat.com.br/referral/one?referral=guilherme-mendes-08293&utm_source=platform&utm_medium=organic&utm_campaign=venda&utm_term=mgm&utm_content=indication-lp_one-certificate-modal&coupon=indicamgm'
+      diplomaUrl: 'https://app.rocketseat.com.br/certificates/c0aedfd5-ebcf-4176-a225-8d38e5746e33'
     },
     {
       title: t('education.degrees.react.title'),
@@ -39,7 +39,7 @@ const Education: React.FC = () => {
       period: '2026',
       description: t('education.degrees.react.description'),
       image: 'https://cdn.simpleicons.org/react/61DAFB',
-      diplomaUrl: 'https://www.rocketseat.com.br/referral/one?referral=guilherme-mendes-08293&utm_source=platform&utm_medium=organic&utm_campaign=venda&utm_term=mgm&utm_content=indication-lp_one-certificate-modal&coupon=indicamgm'
+      diplomaUrl: 'https://app.rocketseat.com.br/certificates/4dd24b85-de6a-499d-9e1a-1f772c809413'
     },
     {
       title: t('education.degrees.nodeFoundations.title'),
