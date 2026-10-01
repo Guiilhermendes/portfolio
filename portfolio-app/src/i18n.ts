@@ -92,7 +92,7 @@ const resources = {
             description: 'Certification focused on Artificial Intelligence, covering practical AI fundamentals, modern tools and real-world applications for product and software development.'
           },
           aiProductivity: {
-            title: 'AI Productivity',
+            title: 'AI-Powered Productivity',
             description: 'Certification focused on AI-powered productivity, covering tools such as Codeium, Amazon Q Developer and GitHub Copilot for writing better code.'
           },
           aiNative: {
