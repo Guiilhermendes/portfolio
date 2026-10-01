@@ -92,7 +92,7 @@ const resources = {
             description: 'Certification focused on Artificial Intelligence, covering practical AI fundamentals, modern tools and real-world applications for product and software development.'
           },
           aiNative: {
-            title: 'AI Native Development: Copilot, MCP, Agents, Tasks and Skills',
+            title: 'AI Native Development',
             description: 'Certification focused on AI Native development, covering Copilot, MCP, agents, tasks and skills for building modern software solutions.'
           },
           react: {
@@ -235,7 +235,7 @@ const resources = {
             description: 'Certificação focada em Inteligência Artificial, cobrindo fundamentos práticos de IA, ferramentas modernas e aplicações reais para desenvolvimento de produtos e software.'
           },
           aiNative: {
-            title: 'Desenvolvimento AI Native: Copilot, MCP, Agentes, Tasks e Skills',
+            title: 'Desenvolvimento AI Native',
             description: 'Certificação focada em desenvolvimento AI Native, abordando Copilot, MCP, agentes, tasks e skills para criar soluções modernas de software.'
           },
           react: {
