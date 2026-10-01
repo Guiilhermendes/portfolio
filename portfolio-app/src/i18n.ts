@@ -91,6 +91,10 @@ const resources = {
             title: 'Artificial Intelligence',
             description: 'Certification focused on Artificial Intelligence, covering practical AI fundamentals, modern tools and real-world applications for product and software development.'
           },
+          aiProductivity: {
+            title: 'AI Productivity',
+            description: 'Certification focused on AI-powered productivity, covering tools such as Codeium, Amazon Q Developer and GitHub Copilot for writing better code.'
+          },
           aiNative: {
             title: 'AI Native Development',
             description: 'Certification focused on AI Native development, covering Copilot, MCP, agents, tasks and skills for building modern software solutions.'
@@ -233,6 +237,10 @@ const resources = {
           ai: {
             title: 'Inteligência Artificial',
             description: 'Certificação focada em Inteligência Artificial, cobrindo fundamentos práticos de IA, ferramentas modernas e aplicações reais para desenvolvimento de produtos e software.'
+          },
+          aiProductivity: {
+            title: 'Produtividade com IA',
+            description: 'Certificação focada em produtividade com inteligência artificial, abordando ferramentas como Codeium, Amazon Q Developer e GitHub Copilot para escrever códigos melhores.'
           },
           aiNative: {
             title: 'Desenvolvimento AI Native',
