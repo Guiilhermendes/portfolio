@@ -19,7 +19,8 @@ const resources = {
         title: 'Full Stack Developer',
         subtitle: 'Transforming ideas into digital solutions with 7 years of experience',
         cta: 'View Projects',
-        contact: 'Get in Touch'
+        contact: 'Get in Touch',
+        dataPortfolio: 'View Data Portfolio'
       },
       about: {
         title: 'About Me',
@@ -48,7 +49,7 @@ const resources = {
             role: 'Senior Technical Consultant',
             period: 'Nov 2025',
             description: 'Technical Consultant in the financial services domain, working on the maintenance, optimization, and evolution of mission-critical systems. I leverage AWS services (Lambda, Glue, Athena, S3, Secrets Manager) and FICO DMPS to maintain decisioning platforms, implement new features, and improve performance, scalability, and reliability of client products. Experienced in troubleshooting production systems and collaborating with cross-functional teams to deliver high-impact technical solutions.',
-            technologies: ['AI', 'JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+            technologies: ['AI', 'JavaScript', 'Python', 'PySpark', 'AWS', 'Databricks', 'DMPS']
           },
           {
             company: 'Mobicity',
@@ -166,7 +167,8 @@ const resources = {
         title: 'Desenvolvedor Full Stack',
         subtitle: 'Transformando ideias em soluções digitais com 7 anos de experiência',
         cta: 'Ver Projetos',
-        contact: 'Entre em Contato'
+        contact: 'Entre em Contato',
+        dataPortfolio: 'Ver Portfólio de Dados'
       },
       about: {
         title: 'Sobre Mim',
@@ -195,7 +197,7 @@ const resources = {
             role: 'Consultor Técnico Senior',
             period: 'Nov 2025',
             description: 'Consultor Técnico Senior atuando no setor de serviços financeiros, responsável pela manutenção, otimização e evolução de sistemas críticos para o negócio. Utilizo serviços da AWS (Lambda, Glue, Athena, S3, Secrets Manager) e FICO DMPS para manter plataformas de decisão, implementar novas funcionalidades e melhorar o desempenho, a escalabilidade e a confiabilidade dos produtos dos clientes. Possuo experiência na resolução de problemas em ambientes de produção e na colaboração com equipes multidisciplinares para entregar soluções técnicas de alto impacto.',
-            technologies: ['IA', 'JavaScript', 'Python', 'PySpark', 'AWS', 'DMPS']
+            technologies: ['IA', 'JavaScript', 'Python', 'PySpark', 'AWS', 'Databricks', 'DMPS']
           },
           {
             company: 'Mobicity',
@@ -298,11 +300,15 @@ const resources = {
   }
 };
 
+const systemLanguage = typeof navigator !== 'undefined'
+  ? (navigator.languages?.[0] || navigator.language || 'en').toLowerCase()
+  : 'en';
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en',
+    lng: systemLanguage.startsWith('pt') ? 'pt' : 'en',
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false

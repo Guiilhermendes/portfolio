@@ -64,6 +64,14 @@ const Hero: React.FC = () => {
             <a href="#contact" className="btn btn-outline">
               {t('hero.contact')}
             </a>
+            <a
+              href="https://portfolio-dados-nine.vercel.app/"
+              className="btn btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('hero.dataPortfolio')}
+            </a>
           </motion.div>
 
           <motion.div
