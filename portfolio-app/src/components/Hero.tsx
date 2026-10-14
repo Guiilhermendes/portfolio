@@ -111,7 +111,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="hero-avatar">
               <img 
-                src="/profile.png"
+                src={`${process.env.PUBLIC_URL}/profile.png`}
                 alt="Guilherme Mendes"
                 onError={(event) => {
                   event.currentTarget.onerror = null;
