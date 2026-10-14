@@ -6,6 +6,7 @@ import './Hero.css';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
+  const githubAvatar = 'https://avatars.githubusercontent.com/u/81973978?v=4';
 
   return (
     <section className="hero" id="home">
@@ -110,8 +111,12 @@ const Hero: React.FC = () => {
             </div>
             <div className="hero-avatar">
               <img 
-                src="https://avatars.githubusercontent.com/u/81973978?v=4" 
+                src="/profile.png"
                 alt="Guilherme Mendes"
+                onError={(event) => {
+                  event.currentTarget.onerror = null;
+                  event.currentTarget.src = githubAvatar;
+                }}
               />
             </div>
           </div>
