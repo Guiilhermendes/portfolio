@@ -11,7 +11,8 @@ import {
   SiRedis, SiGraphql, SiTailwindcss, SiStyledcomponents,
   SiNestjs, SiZod, SiFastify, SiApachespark, SiVite,
   SiVitest, SiPrisma, SiReactrouter, SiCssmodules,
-  SiReacthookform, SiExpo, SiAxios, SiJest, SiMocha
+  SiReacthookform, SiExpo, SiAxios, SiJest, SiMocha,
+  SiTerraform, SiOpenai
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -73,6 +74,8 @@ const Skills: React.FC = () => {
         { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
         { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
         { name: 'Databricks', icon: <FaDatabase />, color: '#FF3621' },
+        { name: 'Terraform', icon: <SiTerraform />, color: '#844FBA' },
+        { name: 'AI', icon: <SiOpenai />, color: '#412991' },
         { name: 'Vite', icon: <SiVite />, color: '#646CFF' },
         { name: 'Vitest', icon: <SiVitest />, color: '#6E9F18' },
         { name: 'Jest', icon: <SiJest />, color: '#C21325' },

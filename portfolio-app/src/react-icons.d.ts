@@ -49,4 +49,6 @@ declare module 'react-icons/si' {
   export const SiAxios: IconType;
   export const SiJest: IconType;
   export const SiMocha: IconType;
+  export const SiTerraform: IconType;
+  export const SiOpenai: IconType;
 }
