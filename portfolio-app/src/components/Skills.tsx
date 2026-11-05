@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, 
-  FaDocker, FaAws, FaPython, FaDatabase
+  FaDocker, FaAws, FaPython, FaDatabase, FaServer, FaStream
 } from 'react-icons/fa';
 import { FaJava } from 'react-icons/fa6';
 import { 
@@ -15,18 +15,6 @@ import {
   SiTerraform, SiOpenai
 } from 'react-icons/si';
 import './Skills.css';
-
-const ServiceNowIcon = () => (
-  <svg role="img" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
-    <text x="12" y="16" textAnchor="middle" fontSize="8" fontWeight="bold">SN</text>
-  </svg>
-);
-
-const KafkaIcon = () => (
-  <svg role="img" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
-    <text x="12" y="16" textAnchor="middle" fontSize="10" fontWeight="bold">K</text>
-  </svg>
-);
 
 const SpringBootIcon = () => (
   <svg role="img" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
@@ -87,8 +75,8 @@ const Skills: React.FC = () => {
         { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
         { name: 'Databricks', icon: <FaDatabase />, color: '#FF3621' },
         { name: 'Terraform', icon: <SiTerraform />, color: '#844FBA' },
-        { name: 'ServiceNow', icon: <ServiceNowIcon />, color: '#81B5A1' },
-        { name: 'Kafka', icon: <KafkaIcon />, color: '#000000' },
+        { name: 'ServiceNow', icon: <FaServer />, color: '#81B5A1' },
+        { name: 'Kafka', icon: <FaStream />, color: '#D95D39' },
         { name: 'AI', icon: <SiOpenai />, color: '#412991' },
         { name: 'Vite', icon: <SiVite />, color: '#646CFF' },
         { name: 'Vitest', icon: <SiVitest />, color: '#6E9F18' },
