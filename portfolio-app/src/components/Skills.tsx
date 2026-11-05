@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, 
-  FaDocker, FaAws, FaPython, FaDatabase, FaServer, FaStream
+  FaDocker, FaAws, FaPython, FaDatabase
 } from 'react-icons/fa';
 import { FaJava } from 'react-icons/fa6';
 import { 
@@ -75,8 +75,8 @@ const Skills: React.FC = () => {
         { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
         { name: 'Databricks', icon: <FaDatabase />, color: '#FF3621' },
         { name: 'Terraform', icon: <SiTerraform />, color: '#844FBA' },
-        { name: 'ServiceNow', icon: <FaServer />, color: '#81B5A1' },
-        { name: 'Kafka', icon: <FaStream />, color: '#D95D39' },
+        { name: 'ServiceNow', icon: <FaDatabase />, color: '#81B5A1' },
+        { name: 'Kafka', icon: <FaDatabase />, color: '#D95D39' },
         { name: 'AI', icon: <SiOpenai />, color: '#412991' },
         { name: 'Vite', icon: <SiVite />, color: '#646CFF' },
         { name: 'Vitest', icon: <SiVitest />, color: '#6E9F18' },
