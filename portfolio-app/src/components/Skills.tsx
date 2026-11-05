@@ -135,5 +135,5 @@ const Skills: React.FC = () => {
     </section>
   );
 };
-
+ 
 export default Skills;
