@@ -107,6 +107,9 @@ const Hero: React.FC = () => {
               <span>React</span>
             </div>
             <div className="floating-card card-3">
+              <span>Java</span>
+            </div>
+            <div className="floating-card card-4">
               <span>AI</span>
             </div>
             <div className="hero-avatar">
