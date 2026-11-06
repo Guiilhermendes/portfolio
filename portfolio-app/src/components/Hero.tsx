@@ -104,13 +104,10 @@ const Hero: React.FC = () => {
               <span>Node.js</span>
             </div>
             <div className="floating-card card-2">
-              <span>React</span>
+              <span>AI</span>
             </div>
             <div className="floating-card card-3">
               <span>Java</span>
-            </div>
-            <div className="floating-card card-4">
-              <span>AI</span>
             </div>
             <div className="hero-avatar">
               <img 
